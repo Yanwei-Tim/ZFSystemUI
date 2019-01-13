@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23475f</color>
+    <color name="colorPrimaryDark">#23475f</color>
+    <!--半透明-->
+    <color name="colorPrimary_solid">#b223475f</color>
+    <color name="colorPrimaryHalf_stroke">#e223475f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="system_primary_color">#ff3b454b</color><!-- blue grey 900 -->
+    <color name="system_secondary_color">#ff37474F</color><!-- blue grey 800 -->
+    <color name="system_accent_color">#ff80CBC4</color><!-- deep teal 200 -->
+</resources>
