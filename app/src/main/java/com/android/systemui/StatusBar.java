@@ -1,6 +1,7 @@
 package com.android.systemui;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Build;
 import android.os.RemoteException;
 import android.service.notification.StatusBarNotification;
@@ -9,7 +10,6 @@ import android.util.Log;
 import android.view.IWindowManager;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManagerGlobal;
 import android.widget.TextView;
 
@@ -44,8 +44,6 @@ public class StatusBar {
 
     @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR2)
     public void start() {
-
-
         mWindowManager = SystemUIWindowManager.getInstance();
         mContext = SystemUIApplication.getInstance().getApplicationContext();
         mWindowManagerService = WindowManagerGlobal.getWindowManagerService();

@@ -40,8 +40,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-//    implementation files('libs/android-28.jar')
-//    implementation files('libs/android-28-res.jar')
     compileOnly files("../extLibs/framework.jar")
     compileOnly files("../extLibs/libcore.jar")
     compileOnly files("../extLibs/proto.jar")

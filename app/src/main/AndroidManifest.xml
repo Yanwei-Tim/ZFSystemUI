@@ -3,8 +3,8 @@
     package="com.android.systemui"
     android:sharedUserId="android.uid.systemui"
     coreApp="true"
-    android:versionName="8.1.0.6"
-    android:versionCode="34">
+    android:versionName="10.1.0.0"
+    android:versionCode="80">
 
 
     <permission android:name="android.permission.systemui.IDENTITY"
