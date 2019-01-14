@@ -22,7 +22,7 @@
                 android:layout_marginLeft="15px"
                 android:layout_marginRight="15px"
                 android:layout_marginTop="5px"
-                android:background="@color/colorPrimaryHalf_stroke"
+                android:background="@drawable/zf_item_style_bg"
                 android:orientation="horizontal"
                 android:gravity="center">
                 <TextView
@@ -53,7 +53,7 @@
                 android:layout_marginLeft="15px"
                 android:layout_marginRight="15px"
                 android:layout_marginTop="5px"
-                android:background="@color/colorPrimaryHalf_stroke"
+                android:background="@drawable/zf_item_style_bg"
                 android:orientation="horizontal"
                 android:gravity="center">
                 <TextView
