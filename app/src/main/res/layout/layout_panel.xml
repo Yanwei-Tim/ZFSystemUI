@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary_solid"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="5px"
+                android:background="@color/colorPrimaryHalf_stroke"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:textColor="@color/color_text"
+                    android:text="亮度"/>
+
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="20px"
+                    android:layout_marginLeft="5px"
+                    android:progress="30"
+                    android:max="100"/>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="1px"-->
+                <!--android:layout_marginTop="3px"-->
+                <!--android:layout_marginLeft="20px"-->
+                <!--android:layout_marginRight="20px"-->
+                <!--/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15px"
+                android:layout_marginRight="15px"
+                android:layout_marginTop="5px"
+                android:background="@color/colorPrimaryHalf_stroke"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5px"
+                    android:textColor="@color/color_text"
+                    android:text="音量" />
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="20px"
+                    android:layout_marginLeft="5px"
+                    android:progress="30"
+                    android:max="100"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1px"-->
+            <!--android:layout_marginTop="5px"-->
+            <!--android:layout_marginLeft="20px"-->
+            <!--android:layout_marginRight="20px"-->
+            <!--/>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="5px"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/police_info"
+                android:layout_width="70px"
+                android:layout_height="80px"
+                android:background="@drawable/zf_btn_select_style_bg"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_marginTop="5px"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_14"
+                    android:text="D" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="3px"
+                android:layout_height="80px" />
+
+            <LinearLayout
+                android:id="@+id/led_flash"
+                android:layout_width="70px"
+                android:layout_height="80px"
+                android:background="@drawable/zf_btn_select_style_bg"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_marginTop="5px"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_14"
+                    android:text="A" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="3px"
+                android:layout_height="80px"
+                />
+
+            <LinearLayout
+                android:id="@+id/led_ir"
+                android:layout_width="70px"
+                android:layout_height="80px"
+                android:background="@drawable/zf_btn_select_style_bg"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_marginTop="5px"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_14"
+                    android:text="B" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="3px"
+                android:layout_height="80px"
+                />
+
+            <LinearLayout
+                android:id="@+id/led_xray"
+                android:layout_width="70px"
+                android:layout_height="80px"
+                android:background="@drawable/zf_btn_select_style_bg"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="60px"
+                    android:layout_height="60px"
+                    android:layout_marginTop="5px"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_text"
+                    android:textSize="@dimen/text_14"
+                    android:text="C" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notification_wrapper">
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

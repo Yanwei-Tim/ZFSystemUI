@@ -10,4 +10,34 @@
     <color name="system_primary_color">#ff3b454b</color><!-- blue grey 900 -->
     <color name="system_secondary_color">#ff37474F</color><!-- blue grey 800 -->
     <color name="system_accent_color">#ff80CBC4</color><!-- deep teal 200 -->
+
+    <!--/////////////////新的颜色配置////////////////////-->
+    <!--主颜色-->
+    <color name="color_c1">#2084d3</color><!--小面积使用,用于特别需要强调和突出的文字,按钮以及icon-->
+    <color name="color_c1_press">#56abe4</color><!--小面积使用,用于特别需要强调和突出的文字,按钮以及icon-->
+    <color name="color_c2">#333333</color><!--重要级文字信息,带图表列表文字-->
+    <color name="color_c3">#4d4d4d</color><!--用于普通段落信息引导词,无图标列表文字-->
+    <color name="color_c4">#808080</color><!--用于辅助次要文字信息,输入框文字-->
+    <color name="color_c5">#bcbcbc</color><!--输入框内提示文字-->
+    <color name="color_c6">#e6e6e6</color><!--用于风格线,标签描边-->
+    <color name="color_text">#ffe6e6e6</color><!--用于风格线,标签描边-->
+    <color name="color_line">#ffe6e6e6</color><!--用于风格线,标签描边-->
+    <color name="color_c7">#f2f2f2</color><!--用于内容区域底色-->
+    <color name="color_c8">#ffffff</color><!--用于反白色-->
+    <!--辅助颜色-->
+    <color name="color_c9">#f55c54</color><!--小面积使用,用于突出文字-->
+    <color name="color_c10">#22b573</color><!--小面积使用,用于突出文字/数字-->
+    <color name="color_c11">#ff9c00</color><!--用于突出文字/数字-->
+    <color name="color_c12">#fafafa</color><!--用于按钮置灰和按扭浮层-->
+    <color name="color_red">#fb0909</color><!--特殊标记//红色-->
+
+    <color name="transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#47a447</color>
+    <color name="yellow">#FFF000</color>
+    <color name="gray">#A6A6A0</color>
+    <color name="orange">#ff9900</color>
+    <color name="deepcolor">#faaa5f</color>
+    <color name="shadowcolor">#333333</color>
 </resources>

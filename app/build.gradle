@@ -11,15 +11,25 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
-    sourceSets {
-        main {
-            java.srcDirs = ['src/main/java',
-                            'android-28']
+//    sourceSets {
+//        main {
+//            java.srcDirs = ['src/main/java',
+//                            'android-28']
+//
+//            res.srcDirs = ['src/main/res',
+//                           'android-28-res']
+//        }
+//    }
 
-            res.srcDirs = ['src/main/res',
-                           'android-28-res']
+    signingConfigs {
+        config {
+            storeFile file('../tools/platform_debug.keystore')
+        }
+        debug {
+            storeFile file('../tools/platform_debug.keystore')
         }
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -30,8 +40,12 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation files('libs/android-28.jar')
-    implementation files('libs/android-28-res.jar')
+//    implementation files('libs/android-28.jar')
+//    implementation files('libs/android-28-res.jar')
+    compileOnly files("../extLibs/framework.jar")
+    compileOnly files("../extLibs/libcore.jar")
+    compileOnly files("../extLibs/proto.jar")
+    compileOnly files("../extLibs/telephony-common.jar")
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'

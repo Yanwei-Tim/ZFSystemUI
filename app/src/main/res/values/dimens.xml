@@ -1,0 +1,82 @@
+<resources>
+
+    <dimen name="textSizeTopbar">28px</dimen>
+    <dimen name="navigationPointHeight">40px</dimen>
+    <dimen name="topbarMarging10">10px</dimen>
+    <dimen name="topbarImageWidth">16dp</dimen>
+    <dimen name="topbarImageHeight">4dp</dimen>
+    <dimen name="topbarImageHight10">10px</dimen>
+    <dimen name="topbarImageWidth56">56px</dimen>
+    <dimen name="textWeekDataSize">24px</dimen>
+    <dimen name="radius">20px</dimen>
+    <dimen name="pointWidth">20px</dimen>
+    <dimen name="pointHeight">10px</dimen>
+    <dimen name="viewpageHight">380px</dimen>
+    <!-- top is public-->
+    <dimen name="marging20">20px</dimen>
+    <dimen name="textView1MarginTop">38px</dimen>
+    <dimen name="textView1SizeTop">34px</dimen>
+    <dimen name="textView1MarginBtm">10px</dimen>
+    <dimen name="marging25">25px</dimen>
+
+    <dimen name="imageViewWidth">50px</dimen>
+    <dimen name="imageViewHeight">50px</dimen>
+    <dimen name="imageViewMarginTop">10px</dimen>
+
+    <dimen name="bottom1LayoutMarginBot">72px</dimen>
+    <dimen name="textView2MarginLeft">14px</dimen>
+    <dimen name="textView2TextSize">20px</dimen>
+
+    <dimen name="bottom2LayoutMarginBot">32px</dimen>
+    <dimen name="textView3TextSize">22px</dimen>
+
+    <dimen name="seekBarWidth">150px</dimen>
+    <dimen name="seekBarHeight">8px</dimen>
+
+    <dimen name="switchHeightWidth">24px</dimen>
+    <dimen name="switchTextSize">24px</dimen>
+
+
+    <!--主界面布局-->
+    <dimen name="top_nav_line_width">50px</dimen>
+    <dimen name="top_nav_line_height">15px</dimen>
+    <dimen name="top_nav_line_top">5px</dimen>
+
+    <dimen name="appcard_view_width">150px</dimen>
+    <dimen name="appcard_view_heiht">90px</dimen>
+    <dimen name="appcard_view_image_width">80px</dimen>
+    <dimen name="appcard_view_image_height">80px</dimen>
+    <dimen name="appcard_view_top">20px</dimen>
+    <dimen name="appcard_view_left">10px</dimen>
+    <dimen name="appcard_view_right">10px</dimen>
+    <dimen name="appcard_view_btm">10px</dimen>
+
+    <!-- 应用图标大小 -->
+    <dimen name="app_icon_size">80px</dimen>
+
+    <!--布局间隔-->
+    <dimen name="margin1">1px</dimen>
+    <dimen name="margin2">2px</dimen>
+    <dimen name="margin3">3px</dimen>
+    <dimen name="margin4">4px</dimen>
+    <dimen name="margin5">5px</dimen>
+    <dimen name="margin6">6px</dimen>
+    <dimen name="margin8">8px</dimen>
+    <dimen name="margin10">10px</dimen>
+    <dimen name="margin15">15px</dimen>
+    <dimen name="margin20">20px</dimen>
+    <dimen name="margin25">25px</dimen>
+
+    <!-- 文字大小 -->
+    <dimen name="text_40">40sp</dimen>
+    <dimen name="text_23">23sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_time_14">14sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_setting">21dp</dimen>
+</resources>
